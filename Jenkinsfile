@@ -19,7 +19,27 @@ pipeline {
         }
 
 
+        stage ('Deployment Stage') {
 
+
+
+            steps {
+
+
+
+
+
+
+
+                bat 'java -jar target/demoPipeline-0.0.1-SNAPSHOT.jar'
+
+
+
+            }
+
+
+
+        }
        
 
     }
