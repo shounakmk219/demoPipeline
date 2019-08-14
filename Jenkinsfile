@@ -20,17 +20,7 @@ pipeline {
 
 
 
-        stage ('Deployment Stage') {
-
-            steps {
-
-               
-
-                bat 'mvn deploy'
-
-            }
-
-        }
+       
 
     }
 
