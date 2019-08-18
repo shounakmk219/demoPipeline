@@ -12,36 +12,11 @@ pipeline {
 
               
 
-                 bat 'mvn clean install'
+                 bat 'mvn clean'
 
             }
 
         }
-
-
-        stage ('Deployment Stage') {
-
-
-
-            steps {
-
-
-
-
-
-
-
-                bat 'java -jar target/demoPipeline-0.0.1-SNAPSHOT.jar'
-
-
-
-            }
-
-
-
-        }
-       
-
     }
 
 }
